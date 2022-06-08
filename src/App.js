@@ -6,11 +6,8 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <h1>Crossplatform</h1>
+      <Todo />
       <Clock />
-      <Todo/>
-
-
     </div>
   );
 }
