@@ -7,7 +7,7 @@ import Todos from './Todos'
 
 function Home() {
     const [todos, setTodos] = useState([])
-
+    
     const handleToDo = (todo) => {
         setTodos( (prevToDos) => {
             return [...prevToDos, {id: uuidv4(), todo}];
