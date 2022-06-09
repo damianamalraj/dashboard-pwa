@@ -1,5 +1,5 @@
 .country {
-  background-color: #34495e;
+  background-color: #6a1b8a;
   width: 300px;
   color: white;
   display: flex;
@@ -25,11 +25,11 @@ h3 {
   border-radius: 0.6rem;
   padding: 0.6rem;
   cursor: pointer;
-  background-color: orange;
+  background-color: #64008a;
   transition: all 0.3s;
 }
 
 .btn:hover {
-  background-color: red;
+  background-color: rgb(101, 23, 131);
   color: white;
 }
