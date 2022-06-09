@@ -1,7 +1,7 @@
 import React from "react";
 
 function Clock() {
-  return <div>Here is the Clock</div>;
+  return <div></div>;
 }
 
 export default Clock;
