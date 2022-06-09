@@ -1,0 +1,10 @@
+.container {
+  flex-direction: column;
+  width: 500px;
+  overflow: scroll;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+}

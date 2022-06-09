@@ -8,9 +8,8 @@ function App() {
   return (
     <div className="App">
       <Todo />
-      <Clock />
-      <Todo />
       <Country />
+      <Clock />
     </div>
   );
 }
