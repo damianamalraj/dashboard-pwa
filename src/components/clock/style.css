@@ -1,5 +1,17 @@
-.containerTime {
-  background: url(./img/9876c9075243b00429018abdbc6cead1--sensitivity-good-morning.jpeg);
-  background-repeat: no-repeat;
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+.Clock {
   color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+}
+.Clock > h1 {
+  font-size: 4rem;
+}
+@media screen and (min-width: 768px) {
+  .Clock > h1 {
+    font-size: 7rem;
+  }
 }

@@ -1,5 +1,4 @@
 node_modules
-.env
 .DS_Store
 cert/localhost+1-key.pem
 cert/localhost+1.pem

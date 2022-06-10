@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import style from "./style.css";
+import "./style.css";
 
 const Clock = () => {
   const [currentTime, setCurrentTime] = useState("");
@@ -19,13 +19,9 @@ const Clock = () => {
   }, 1000);
 
   return (
-    <div className="containerTime">
-      <h1>Current time</h1>
+    <div className="Clock">
       <h1> {currentTime} </h1>
-      <h1> {currentDate} </h1>
-      <h1>
-        <marquee behavior="alternate">Sweden</marquee>
-      </h1>
+      <h2> {currentDate} </h2>
     </div>
   );
 };

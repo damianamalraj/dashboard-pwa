@@ -1,6 +1,51 @@
 .App {
-  text-align: center;
-  display: grid;
+  padding: 0;
+  margin: 0;
+}
+.header-container {
+  background-color: #693250;
+  padding: 0.5rem 1rem;
+}
+.header > h1 {
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-size: 3rem;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+}
 
-  grid-template-columns: repeat(3, 1fr);
+.wgt {
+  display: flex;
+  flex-direction: column;
+}
+
+.wgt > * {
+  border: 5px #693250 solid;
+  border-radius: 16px;
+  height: 335px;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    max-width: 1450px;
+    margin: auto;
+  }
+
+  .wgt {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5rem;
+    max-width: 1450px;
+    margin: auto;
+  }
+  .wgt > *:nth-of-type(3) {
+    background-color: #693250;
+  }
+  .wgt > *:nth-of-type(5) {
+    grid-column: 2/4;
+  }
 }

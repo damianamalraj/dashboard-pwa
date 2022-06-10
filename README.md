@@ -1,7 +1,14 @@
 # To-do
 
-- SW register
-- ssl certifikat (mkcert)
-- Server med https
-- SW configration (Google workbox)
-- Manifest.json
+- SW register ✅
+- ssl certifikat (mkcert) ✅
+- Server med https ✅
+- SW configration (Google workbox) ✅
+- Manifest.json ✅
+
+- need to style in dashboard ✅
+- - icon to do well ✅
+- weather app component ✅
+- need to fix so that it will be responsible (mobile) ✅
+
+##Script
