@@ -7,8 +7,10 @@
 - Manifest.json ✅
 
 - need to style in dashboard ✅
-- - icon to do well ✅
+- - social-media icons to do well ✅
 - weather app component ✅
 - need to fix so that it will be responsible (mobile) ✅
 
-##Script
+## Scripts
+
+- `npm run serve`
