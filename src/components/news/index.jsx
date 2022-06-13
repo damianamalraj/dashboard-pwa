@@ -1,5 +1,6 @@
 import React from "react";
-import NewsList from "./NewsList";
+import News from "./News";
+import "./index.css";
 
 function index() {
   return (
@@ -9,7 +10,7 @@ function index() {
         BREAKING NEWS!!! YOU BETTER BELIVE IT
         {/* </marquee> */}
       </h1>
-      <NewsList />
+      <News />
     </div>
   );
 }
