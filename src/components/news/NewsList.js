@@ -8,10 +8,11 @@ const NewsList = () => {
 
   useEffect(() => {
     const getArticles = async () => {
-      const response = await axios.get(
+      const response = await fetch(
         `https://newsapi.org/v2/everything?q=football&apiKey=${process.env.REACT_APP_NEWS_API_KEY}`
       );
-      setArticles(response.data.articles);
+      const data = await response.json();
+      setArticles(data.articles);
     };
 
     getArticles();
