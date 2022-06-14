@@ -16,7 +16,13 @@ function News() {
   return (
     <div>
       {news.map((news) => {
-        return <List title={news.title} description={news.description} />;
+        return (
+          <List
+            key={news.id}
+            title={news.title}
+            description={news.description}
+          />
+        );
       })}
     </div>
   );
