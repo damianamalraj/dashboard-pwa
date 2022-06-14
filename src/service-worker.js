@@ -79,7 +79,7 @@ registerRoute(
 );
 
 registerRoute(
-  ({ url }) => url.origin === "https://api.currentsapi.services/",
+  ({ url }) => url.origin === "https://api.currentsapi.services",
   new StaleWhileRevalidate({
     cacheName: "news-api-response",
   })
