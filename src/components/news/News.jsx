@@ -6,11 +6,9 @@ function News() {
   const [news, setNews] = useState([]);
   useEffect(() => {
     (async () => {
-      const res = await fetch(
-        `https://api.currentsapi.services/v1/latest-news?apiKey=${process.env.REACT_APP_NEWS_API_KEY}`
-      );
+      const res = await fetch("/netlify/functions/fetch.js");
       const data = await res.json();
-      setNews(data.news);
+      setNews(data);
     })();
   }, []);
   return (
